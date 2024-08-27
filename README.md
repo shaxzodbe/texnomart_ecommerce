@@ -9,6 +9,10 @@
 
 ## TEXNOMART E-COMMERCE
 
+`.env.example` copy to `.env` and run `php artisan key:generate`
+
+`php artisan jwt:secret`                        - run to generate secret JWT KEY
+
 `composer install --ignore-platform-reqs`       - to install packages
 
 `./vendor/bin/pest`                             - to run tests
